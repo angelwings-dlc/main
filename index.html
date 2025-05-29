@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <!-- Знали бы вы, сколько всего смешного и интересного хранит этот код, точнее, его история. 1 раз чуть не потерял этот файл, который вы сейчас смотрите, 
+     полностью, 1 раз переписывал с нуля CSS (по своей инициативе. Я его не потерял, как я делаю в своем репертуаре). 60% кода здесь - DeepSeek + Grok, 40% - личный код -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelwings Client - Главная</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta property="og:title" content="Angelwings Client - DLC для Minecraft 1.16.5">
+    <meta property="og:url" content="https://hextech-client.github.io/hextech-client/">
+    <meta property="og:image" content="https://i.postimg.cc/3rCH35Zk/logo.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Angelwings Client - DLC для Minecraft 1.16.5">
+    <meta name="twitter:image" content="https://i.postimg.cc/3rCH35Zk/logo.png">
+</head>
+<body>
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+    <header class="blurred">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="color: white; text-decoration: none; display: flex; align-items: center;">
+                    <img src="img/favicon.png" alt="logo" style="height: 40px; margin-right: 10px;">
+                    Angelwings Client
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="https://hextech-client.github.io/forum/">Форум</a></li>
+                    <li><a href="https://hextech-client.github.io/forum/login.html">Скачать лаунчер</a></li>
+                    <li><a href="products.html">Тарифы</a></li>
+                    <li><a href="cabinet.html" class="btn">Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="notification" class="notification">
+        <span class="warning-icon">!</span>
+        Внимание! Если у вас возникают проблемы с сайтом, то воспользуйтесь VPN или прокси
+    </div>
+
+    <section class="about" id="home">
+        <img src="https://i.postimg.cc/L8pbRswt/2025-05-19-22-14-23.png" alt="Фон" class="background-image">
+        <div class="content">
+            <h1 class="shadow-text">премиальный клиент для minecraft</h1>
+            <p class="shadow-text">твой ключ к успеху: чит с огромным функционалом и частыми апдейтами</p>
+            <button class="btn shadow-btn" onclick="window.location.href='products.html'">Купить</button>
+            <button class="btn secondary shadow-btn" onclick="location.href='#advantages'">Подробнее</button>
+        </div>
+    </section>
+    
+    <section class="advantages" id="advantages">
+        <h2>наши преимущества</h2>
+        <div class="grid">
+            <div class="card"> 
+                <img src="https://i.postimg.cc/vmHn23Jf/support.png" alt="Красивый внешний вид">
+                <h3>поддержка</h3> 
+                <p>мы поможем вам в любом вопросе и попробуем помочь или разбраться в сути проблемы, а затем уже предложим решение.</p> 
+            </div>
+            <div class="card"> 
+                <img src="https://i.postimg.cc/L82s4h6V/customization.png" alt="Настраиваемость">
+                <h3>кастомизация</h3> 
+                <p>свобода в настройке под ваш стиль игры: изменяйте темы, интерфейс и настраивайте функционал так, как вам удобно, под ваш вкус и цвет.</p> 
+            </div>
+            <div class="card"> 
+                <img src="https://i.postimg.cc/6qhCqgRj/updates.png" alt="Частые обновления">
+                <h3>частые обновления</h3> 
+                <p>регулярная работа над обновлениями нашего проекта, расширение функционала и добавления самых новейших обходов античитов практически любого сервера.</p> 
+            </div>
+        </div>
+    </section>
+
+<section class="client-description">
+    <h2>О клиенте</h2>
+    <div class="description-content">
+        <div class="description-text">
+            <p><span class="angelwings">Angelwings Client</span> - это премиальный читерский клиент для Minecraft 1.16.5, разработанный для HvH, анархий по типу FunTime, ReallyWorld, HolyWorld и прочих серверов. Наш клиент предлагает широкий спектр функций, включая улучшенный PvP-режим, умные обходы античитов и уникальные визуальные эффекты.</p>
+            
+            <h3>Безопасность клиента</h3>
+            <p>Мы уделяем особое внимание безопасности наших пользователей:</p>
+            <ul>
+                <li>Собственная система защиты от взлома <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%BB%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F" <a="">(кряка)</a> клиента</li>
+                <li>Регулярные обновления для обхода античитов известных серверов</li>
+                <li>Отсутствие троянов, стиллеров, вирусов удаленного доступа <a href="https://ru.wikipedia.org/wiki/RAT">(RAT)</a> или майнинга</li>
+            </ul>
+            
+            <p>Наш клиент на стадии разработки, так что исходный код вы можете проверить на VirusTotal</p>
+            <p>Клиент работает по принципу "plug-and-play" - просто скачайте, запустите и наслаждайтесь преимуществом!</p>
+        </div>
+        <div class="description-image">
+            <img src="https://i.postimg.cc/3rCH35Zk/logo.png" alt="Angelwings Client Interface">
+        </div>
+    </div>
+</section>
+
+    <section class="tariffs" id="tariffs">
+        <h2>тарифы</h2>
+        <div class="grid">
+            <div class="tariff-card">
+                <h3>350₽</h3>
+                <p>30 дней</p>
+                <button class="btn">купить</button>
+            </div>
+            <div class="tariff-card">
+                <h3>550₽</h3>
+                <p>60 дней</p>
+                <button class="btn">купить</button>
+            </div>
+            <div class="tariff-card">
+                <h3>850₽</h3>
+                <p>90 дней</p>
+                <button class="btn">купить</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-review" id="video-review">
+        <h2>видеообзор</h2>
+        <p>ниже вы можете посмотреть небольшой геймплей и демонстрацию нашего клиента.</p>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="screenshots" id="screenshots">
+        <h2>скриншоты</h2>
+        <div class="screenshots-container">
+            <div class="main-screenshot">
+                <a href="https://i.postimg.cc/P5GXLtVY/333.png" target="_blank" rel="noopener noreferrer">
+                    <img src="https://i.postimg.cc/P5GXLtVY/333.png" alt="Основной скриншот" id="main-screenshot">
+                </a>
+                <p class="screenshot-description" id="screenshot-desc">Интерфейс клиента с настройками</p>
+            </div>
+            <div class="thumbnails">
+                <div class="thumbnail active" onclick="changeScreenshot('https://i.postimg.cc/P5GXLtVY/333.png', 'Интерфейс клиента с настройками')">
+                    <a href="https://i.postimg.cc/P5GXLtVY/333.png" target="_blank" rel="noopener noreferrer">
+                        <img src="https://i.postimg.cc/P5GXLtVY/333.png" alt="Скриншот 1">
+                    </a>
+                </div>
+                <div class="thumbnail" onclick="changeScreenshot('https://i.postimg.cc/m2KDQ3kc/222.png', 'HUD и визуалы')">
+                    <a href="https://i.postimg.cc/m2KDQ3kc/222.png" target="_blank" rel="noopener noreferrer">
+                        <img src="https://i.postimg.cc/m2KDQ3kc/222.png" alt="Скриншот 2">
+                    </a>
+                </div>
+                <div class="thumbnail" onclick="changeScreenshot('https://i.postimg.cc/XNswY6pV/photo-2025-05-06-23-26-45.jpg', 'Главное меню клиента')">
+                    <a href="https://i.postimg.cc/XNswY6pV/photo-2025-05-06-23-26-45.jpg" target="_blank" rel="noopener noreferrer">
+                        <img src="https://i.postimg.cc/XNswY6pV/photo-2025-05-06-23-26-45.jpg" alt="Скриншот 3">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dominance-section">
+        <h3>готовы доминировать?</h3>
+        <button class="btn shadow-btn dominance-btn" onclick="window.location.href='https://funpay.com/users/6623633/'">
+            КУПИТЬ ANGELWINGS
+        </button>
+    </section>
+
+    <div class="stats">
+        <div class="stat-item">
+            <h3>3</h3>
+            <p>пользователей</p>
+        </div>
+        <div class="stat-item">
+            <h3>84</h3>
+            <p>запусков клиента</p>
+        </div>
+        <div class="stat-item">
+            <h3>11</h3>
+            <p>обновлений вышло</p>
+        </div>
+        <div class="stat-item">
+            <h3>72</h3>
+            <p>дней с открытия</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-box">
+            <div class="footer-container">
+                <p class="copyright">© 2025 Angelwings Client. Все права защищены.</p>
+                <p class="disclaimer">Наш продукт - не официальный продукт Minecraft, а также не связан с компанией MojangAB.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
